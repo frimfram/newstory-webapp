@@ -1,5 +1,3 @@
-# Vulnerable REST API - OWASP 2023
-
 A vulnerable RESTful application written in Node and React based on [vulnerable REST app/api](https://github.com/bnematzadeh/vulnerable-rest-api)
 
 # How to install
