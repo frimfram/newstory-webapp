@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Production builds
+client/build/
+build/
+dist/
+
+# Environment and local secrets (commit *.example templates if you use them)
+.env
+.env.*
+!.env.example
+server/smtp_config.list
+
+# Logs and runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Misc
+*.tgz
+.cache/

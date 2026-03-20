@@ -1,0 +1,36 @@
+/* Palette aligned with https://actuallyrelevant.news/ — brand burgundy, pink accents, clean neutrals */
+:root {
+  --ar-brand: #661845;
+  --ar-brand-mid: #b01a6a;
+  --ar-brand-ring: #ec268f;
+  --ar-bg: #fafafa;
+  --ar-surface: #ffffff;
+  --ar-text: #171717;
+  --ar-text-muted: #525252;
+  --ar-text-soft: #737373;
+  --ar-border: #e5e5e5;
+  --ar-border-light: #f5f5f5;
+  --ar-accent-pink: #f9a8d4;
+  --ar-tint: #fdf2f8;
+  --ar-footer: #171717;
+  --ar-footer-text: #d4d4d4;
+  --ar-footer-muted: #a3a3a3;
+  --ar-stripe-amber: #fbbf24;
+  --ar-stripe-teal: #2dd4bf;
+  --ar-stripe-red: #f87171;
+  --ar-stripe-indigo: #818cf8;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  background-color: var(--ar-bg);
+  color: var(--ar-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clickable {
+  cursor: pointer;
+}

@@ -1,0 +1,201 @@
+.starter-template {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+form.edit{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form.edit h1{
+  text-align: center;
+}
+
+form.login, form.register, form.about{
+    max-width: 400px;
+    margin: 0 auto;
+}
+input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px 7px;
+    border: 2px solid var(--ar-border);
+    border-radius: 5px;
+    background-color: var(--ar-surface);
+    color: var(--ar-text);
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--ar-accent-pink);
+    box-shadow: 0 0 0 3px rgba(236, 38, 143, 0.15);
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--ar-brand-mid);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+
+button:hover {
+    background-color: var(--ar-brand);
+}
+
+form.login h1, form.register h1, form.about{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile li, h1, h2, p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 15px;
+  color: var(--ar-text);
+}
+
+.books, .authors, .about, .users{
+  margin-top: 40px;
+}
+
+tr{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Actually Relevant–style top bar */
+.ar-navbar {
+  background-color: var(--ar-surface) !important;
+  border-bottom: 1px solid var(--ar-border-light) !important;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+}
+
+.ar-navbar .navbar-nav .nav-link {
+  color: var(--ar-text-soft) !important;
+  font-weight: 500;
+}
+
+.ar-navbar .navbar-nav .nav-link:hover,
+.ar-navbar .navbar-nav .nav-link.active {
+  color: var(--ar-brand) !important;
+}
+
+.ar-issue-strip {
+  display: flex;
+  height: 4px;
+  width: 100%;
+}
+
+.ar-issue-strip span {
+  flex: 1;
+  min-height: 4px;
+}
+
+.ar-issue-strip span:nth-child(1) { background: var(--ar-stripe-amber); }
+.ar-issue-strip span:nth-child(2) { background: var(--ar-stripe-teal); }
+.ar-issue-strip span:nth-child(3) { background: var(--ar-stripe-red); }
+.ar-issue-strip span:nth-child(4) { background: var(--ar-stripe-indigo); }
+
+/* Bootstrap primary → brand */
+.btn-primary {
+  background-color: var(--ar-brand-mid);
+  border-color: var(--ar-brand-mid);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--ar-brand);
+  border-color: var(--ar-brand);
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(176, 26, 106, 0.35);
+}
+
+/* Footer: dark panel like AR */
+.ar-footer {
+  background-color: var(--ar-footer);
+  color: var(--ar-footer-text);
+}
+
+.ar-footer-bar {
+  min-height: 2.5rem;
+}
+
+.ar-footer .text-muted {
+  color: var(--ar-footer-muted) !important;
+}
+
+.home-page.starter-template {
+  text-align: center;
+}
+
+.home-news {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5rem;
+}
+
+.home-news__header {
+  margin-bottom: 1.75rem;
+}
+
+.home-news__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem 0;
+  color: var(--ar-text);
+}
+
+.home-news__subtitle {
+  font-size: 1rem;
+  color: var(--ar-text-muted);
+  margin: 0;
+}
+
+.home-news__status {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.home-news-card {
+  border: 1px solid var(--ar-border);
+  border-radius: 12px;
+  background: var(--ar-surface);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  overflow: hidden;
+}
+
+.home-news-card:hover {
+  box-shadow: 0 8px 28px rgba(102, 24, 69, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+.home-news-card .card-body {
+  padding: 1.25rem 1.35rem;
+}
+
+.home-news-card__headline a {
+  text-decoration: none;
+  color: var(--ar-text) !important;
+}
+
+.home-news-card__headline a:hover {
+  text-decoration: underline;
+  color: var(--ar-brand-mid) !important;
+}
+
+.home-news-card__summary {
+  line-height: 1.5;
+  color: var(--ar-text-muted) !important;
+}

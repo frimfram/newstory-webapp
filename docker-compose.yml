@@ -1,0 +1,30 @@
+name: newstories
+version: "3.8"
+services:
+  client:
+    image: newstories-client
+    depends_on:
+      - api
+    build: ./client
+    ports:
+      - 3000:3000
+  api:
+    image: newstories-api
+    depends_on:
+      - db
+    build: ./server
+    ports:
+      - 3001:3001
+    environment:
+      DB_URL: mongodb://db/newstories-rest-api
+    env_file:
+      - ./server/smtp_config.list
+    command: ["sh", "docker-entrypoint.sh"]
+  db:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    volumes:
+      - rest-api:/data/db
+volumes:
+  rest-api:
