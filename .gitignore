@@ -10,7 +10,6 @@ dist/
 .env
 .env.*
 !.env.example
-server/smtp_config.list
 
 # Logs and runtime
 *.log
