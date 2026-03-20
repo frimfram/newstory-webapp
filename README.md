@@ -3,11 +3,11 @@ A vulnerable RESTful application written in Node and React based on [vulnerable 
 # How to install
 ## Option 1: Run on Docker (recommended)
 ```
-git clone https://github.com/bnematzadeh/vulnerable-rest-api.git
+git clone https://github.com/frimfram/newstory-webapp.git
 ```
 
 ```
-cd vulnerable-rest-api/
+cd newstory-webapp/
 ```
 
 [opional] Add your SMTP credentials and provider in server/smtp_config.list.
